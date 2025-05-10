@@ -1,9 +1,9 @@
 name: Spring Boot CI for Github Actions
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
